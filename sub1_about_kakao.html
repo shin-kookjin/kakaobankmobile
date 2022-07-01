@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/sub1.js"></script>
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -87,7 +88,7 @@
           </div>
         </div>
         <div class="con2">
-          <h3>브랜드 영상</h3>
+          <h3 class="center">브랜드 영상</h3>
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -161,7 +162,7 @@
           </div>
         </div>
         <div class="con3">
-          <h3>BI 소개</h3>
+          <h3 class="center">BI 소개</h3>
           <div class="symbol">
             <img src="images/bi1.png" alt="심볼" />
             <p class="tit">Symbol</p>
@@ -176,10 +177,10 @@
         <div class="con4">
           <h3 class="hide">SNS 모음</h3>
           <ul>
-            <li><a href="#">페이스북</a></li>
-            <li><a href="#">블로그</a></li>
-            <li><a href="#">네이버</a></li>
-            <li><a href="#">유투브</a></li>
+            <li><a href="#" class="bgico fa">페이스북</a></li>
+            <li><a href="#" class="bgico bl">블로그</a></li>
+            <li><a href="#" class="bgico na">네이버</a></li>
+            <li><a href="#" class="bgico yo">유투브</a></li>
           </ul>
         </div>
       </section>
@@ -203,8 +204,8 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
+        slidesPerView: 2.5,
+        spaceBetween: 8,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
